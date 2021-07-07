@@ -1,0 +1,98 @@
+/* large tablet to monitor: 1024px+ */
+@media screen and (max-width: 1200px) {
+  .hero-text-box {
+    width: 100%;
+    padding: 2px;
+  }
+  .row {
+    padding: 0 2%;
+  }
+}
+
+/* small tablet to large tablet: 768 - 1023px */
+@media screen and (max-width: 1023px) {
+  body {
+    font-size: 18px;
+  }
+  .main-nav li a {
+    font-size: 80%;
+    border: 1px solid #22a6b3;
+    padding: 10px 10px;
+    border-radius: 100px;
+  }
+  h1 {
+    font-size: 200%;
+  }
+  .long-copy {
+    width: 80%;
+    margin-left: 10%;
+  }
+  .plans strong {
+    font-size: 150%;
+  }
+  .plans-part1 {
+    font-size: 90%;
+  }
+  .plans-part2 {
+    font-size: 90%;
+  }
+}
+
+/* large phone to small tablet: 640 - 767px */
+@media screen and (max-width: 767px) {
+  .logo {
+    transform: scale(0.8);
+  }
+  .main-nav {
+    display: none;
+  }
+  h1 {
+    font-size: 150%;
+  }
+  h3 {
+    font-size: 85%;
+  }
+  .section-cities h3 {
+    margin-bottom: 15px;
+  }
+  .section-cities p {
+    font-size: 80%;
+  }
+  .btn-app img {
+    height: 30px;
+    width: auto;
+  }
+  .plans-part2::before {
+    display: none;
+  }
+  .plans-part1 {
+    margin-bottom: 30%;
+  }
+}
+
+/* small phones: 480px - 640px */
+@media screen and (max-width: 640px) {
+  .plans-part1 {
+    margin-bottom: 50%;
+  }
+  .toggle-columns {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .col-1-of-4,
+  .col-2-of-4,
+  .col-3-of-4,
+  .col-4-of-4 {
+    margin: 5px 10px;
+    width: 100%;
+  }
+  .section-cities h3 {
+    font-size: 130%;
+  }
+}
+
+/* small phones: 0 - 480px */
+@media screen and (max-width: 480px) {
+}
